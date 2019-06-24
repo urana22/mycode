@@ -8,5 +8,5 @@ def main():
 
     switch['lynx'] = '1.1.1.1'
     print( switch['lynx'])
-
+    print(switch.get('hughes'))
 main()
