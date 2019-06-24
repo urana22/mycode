@@ -18,9 +18,8 @@ our_commands= ['touch sshworked.txt', 'touch create.txt', 'touch file3.txt', 'ls
 
 
 for x in our_commands:
-    print(commandissue(x))
-
-
-#print(dir(sshsession))
+    print(commandissue(x).decode('utf-8'))
+            
+          #  print(dir(sshsession))
 
 #sshsession.close()
